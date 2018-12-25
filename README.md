@@ -11,7 +11,6 @@
             <label for="username">姓名:</label>
             <input id="username" type="name" name="username" placeholder="用户名">
             <div class="password"></div>
-           
             <div class="password"></div>
             <label for="password" >密码:</label>
             <input id="password" type="password" name="password" placeholder="请输入密码">
@@ -19,17 +18,14 @@
                 <label for="sex">性别：</label>
                 <input type="radio" name="sex" value="男">男
                 <input type="radio" name="sex" value="女">女
-
-            </div>
+             </div>
             <div class="取向">
                     <label for="取向">取向：</label>
                     <input type="radio" name="取向" value="男">男
                     <input type="radio" name="取向" value="女">女
-    
-                </div>
+             div>
                 <div class="hobby">
                     <label >爱好：</label> 
-                   
                     <input type="checkbox" name="hobby"> <label>data</label>
                     
                     <input type="checkbox" name="hobby"><label>旅游</label>
