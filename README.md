@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <form >
+            <div class="username"></div>
+            <label for="username">姓名:</label>
+            <input id="username" type="name" name="username" placeholder="用户名">
+            <div class="password"></div>
+           
+            <div class="password"></div>
+            <label for="password" >密码:</label>
+            <input id="password" type="password" name="password" placeholder="请输入密码">
+            <div class="性别">
+                <label for="sex">性别：</label>
+                <input type="radio" name="sex" value="男">男
+                <input type="radio" name="sex" value="女">女
 
-You can use the [editor on GitHub](https://github.com/1446056543/zuoye1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+            </div>
+            <div class="取向">
+                    <label for="取向">取向：</label>
+                    <input type="radio" name="取向" value="男">男
+                    <input type="radio" name="取向" value="女">女
+    
+                </div>
+                <div class="hobby">
+                    <label >爱好：</label> 
+                   
+                    <input type="checkbox" name="hobby"> <label>data</label>
+                    
+                    <input type="checkbox" name="hobby"><label>旅游</label>
+                    
+                    <input type="checkbox" name="hobby"><label>宠物</label>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+                </div>
+                <div class="textarea">
+                    <label >评论：</label>
+                   <textarea name="article"  cols="30" rows="10">ddd</textarea>
 
-### Markdown
+                </div>
+                <div class="select">
+                    <label >my car:</label>
+                    <select name="car" >
+                        <option value="奥迪">奥迪</option>
+                        <option value="本田" selected>本田</option>
+                        <option value="宝马">宝马</option>
+                    </select>
+                    <button>提交</button>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+                </div>
 
-```markdown
-Syntax highlighted code block
+        </form>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/1446056543/zuoye1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </div>
+    
+</body>
+</html>
